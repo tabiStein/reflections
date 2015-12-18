@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	The .git folder is created where all the metadata is stored. Git needs this to keep track of the commit history of your files.
