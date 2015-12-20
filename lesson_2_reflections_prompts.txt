@@ -1,3 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 	The .git folder is created where all the metadata is stored. Git needs this to keep track of the commit history of your files.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using git diff to compare the working directory and the staging area, you can refresh what kind of changes you've made since you left off to determine whether it's time to commit for a single logical change.
