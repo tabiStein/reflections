@@ -13,3 +13,7 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	The diagrams show that we have a directed graph structure, and if we have no reference to a node at the end of a branch, we clearly have no way of reaching it. This shows that you need to create legit branches in order to move in another direction and save your work.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Git uses an algorithm to combine two files into a file having all features of both. We represent this by showing the branches that have diverges converge back together. This expresses how the code once went into two different directions from the same starting point, but then they are combined into a file that originates from both parents.
