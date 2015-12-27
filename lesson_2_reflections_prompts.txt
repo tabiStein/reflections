@@ -17,3 +17,7 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	Git uses an algorithm to combine two files into a file having all features of both. We represent this by showing the branches that have diverges converge back together. This expresses how the code once went into two different directions from the same starting point, but then they are combined into a file that originates from both parents.
+	
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Git's auto merging is clearly positive since it saves a crap load of time for simple combinations. The con of doing it automatically always would be code that possibly wouldn't compile because there's no way for git to know when to choose a line in an ambiguous situation without complex machine learning.
