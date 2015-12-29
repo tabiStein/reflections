@@ -1,3 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
   Surely this would be a necessity when working in groups? Unless there is a way for groups working on the same network or whatever (I don't know anything) to locally share a project -- then a remote repository wouldn't be necessary for them all to access the code. In that case I suppose the benefit to having a remote repository would be the ability to access the code anywhere? Even then I am not sure this is impossible "locally," since I don't know what that means.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	
+	It would take a lot of time to always keep Git and your remote repository in sync. Also, how could you do this offline? I don't think you could. And would pulling changes possibly overwrite something you're working on? Or would it just add files? I don't get it really.
