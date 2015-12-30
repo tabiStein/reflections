@@ -11,3 +11,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	Forking is creating a clone of a repository from one github account to another. This is used when you want to store someone else's code in your own repository and then clone it to work off their code while giving credit of it. Cloning is for creating a copy of code. Branching also creates a copy of code but allows you to make changes to it while having another copy of the original in the same repository on another branch. Can you really even contrast them? They're all different.
 	Branching vs forking & cloning: branching preserves chronological order. If you fork something, and that something changes, your fork isn't linked to it and so you don't see how they develop side by side. So you'd use a fork as a starting point I think. 
 	Forking vs cloning: forking is a type of cloning I think...you use it just within github. You can't clone from one account to another I think. 
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	I don't know! Besides the obvious of knowing what the latest version other people had seen when you pulled it, I don't see other benefits.
