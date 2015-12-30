@@ -19,3 +19,7 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 	I guess one could use subversion, but I don't know how this works in groups. Email would be another method. Initially it would be easier since Github might be difficult to learn at first, but it would be a hassle to attach a bunch of files and for your group members to keep track of them all.
+	
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	Clearly directly making changes in master makes it easier to interact with Github since you don't have to pull into master and then take the second step of merging that into your branch. However, I think it would be harder to try out new things, just like when you're only working locally. If you had all your updates in your master branch, and then fetched master from github and merged those dudes, you...well...hmm. I'm not sure actually.
